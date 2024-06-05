@@ -11,7 +11,7 @@ const Hero = () => {
           <h1>
             Your invitation card,
             <br />
-            But better in every way.
+            But <span>Better</span> in every way.
           </h1>
         </div>
         <div className="Section Image">

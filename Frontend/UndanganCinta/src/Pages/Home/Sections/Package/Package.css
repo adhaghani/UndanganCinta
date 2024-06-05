@@ -1,0 +1,25 @@
+#Package .Container .Card-Container {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--gap_15);
+}
+#Package .Container .Card-Container #PackageCard {
+  flex: 1 1;
+  padding: var(--padding_20);
+  border-radius: var(--border_radius_6);
+  box-shadow: var(--box_shadow_1);
+}
+#Package .Container .Card-Container #PackageCard .title {
+  text-align: center;
+  padding-bottom: var(--gap_15);
+}
+#Package .Container .Card-Container #PackageCard .title h3 {
+  color: var(--colour_primary_dark);
+}
+#Package .Container .Card-Container #PackageCard .package-details li {
+  padding: 5px 0px;
+  display: flex;
+  align-items: center;
+}/*# sourceMappingURL=Package.css.map */

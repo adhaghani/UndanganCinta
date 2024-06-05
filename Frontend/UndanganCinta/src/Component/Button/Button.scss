@@ -6,11 +6,11 @@
   font-weight: var(--font_weight_semibold);
   &.outline {
     background-color: transparent;
-    border: 2px solid var(--bg_colour_lgray);
-    color: var(--text_colour_lgray);
+    border: 2px solid var(--text_colour_dkgray);
+    color: var(--text_colour_dkgray);
     &:hover {
       color: var(--text_colour_dkgray);
-      border: 2px solid var(--bg_colour_dkgray);
+      border: 2px solid var(--colour_primary_dark);
     }
   }
 }

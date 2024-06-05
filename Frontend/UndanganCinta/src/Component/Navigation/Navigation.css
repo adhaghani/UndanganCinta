@@ -1,0 +1,30 @@
+#Navigation {
+  width: 100%;
+  height: var(--height_nav);
+  background-color: #fff;
+}
+#Navigation .Container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#Navigation .Container .Section {
+  display: flex;
+  align-items: center;
+  gap: var(--gap_15);
+}
+#Navigation .Container .Section .Logo h3 {
+  letter-spacing: 1px;
+}
+#Navigation .Container .Section .List {
+  display: flex;
+}
+#Navigation .Container .Section .List li a {
+  display: block;
+  padding: var(--padding_1020);
+  color: var(--text_colour_lgray);
+}
+#Navigation .Container .Section .List li a:hover {
+  color: var(--text_colour_dkgray);
+}/*# sourceMappingURL=Navigation.css.map */

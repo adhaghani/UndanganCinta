@@ -1,0 +1,13 @@
+#Home {
+  background-color: #fff;
+  #About,
+  #Package {
+    background-color: var(--bg_colour_white);
+  }
+  #Hero,
+  #About,
+  #Package,
+  #Contact {
+    height: 70vh;
+  }
+}

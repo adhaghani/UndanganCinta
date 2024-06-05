@@ -1,0 +1,27 @@
+#Hero {
+  margin-bottom: -70px;
+  background-color: var(--colour_primary_light);
+}
+#Hero .Container {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  height: 60vh;
+  max-height: 600px;
+}
+#Hero .Container .Section {
+  display: flex;
+  align-items: center;
+}
+#Hero .Container .Section.Text h1 {
+  font-size: 64px;
+}
+#Hero .Container .Section.Image img {
+  width: 100%;
+  max-width: 400px;
+}
+#Hero svg {
+  transform: translateY(6px);
+  margin-top: -8%;
+  width: 100vw;
+}/*# sourceMappingURL=Hero.css.map */

@@ -1,7 +1,7 @@
 #Navigation {
   width: 100%;
   height: var(--height_nav);
-  background-color: #fff;
+  background-color: var(--colour_primary_light);
 }
 #Navigation .Container {
   height: 100%;

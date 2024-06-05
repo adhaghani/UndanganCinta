@@ -1,13 +1,3 @@
 #Home {
   background-color: #fff;
-}
-#Home #About,
-#Home #Package {
-  background-color: var(--bg_colour_white);
-}
-#Home #Hero,
-#Home #About,
-#Home #Package,
-#Home #Contact {
-  height: 70vh;
 }/*# sourceMappingURL=Home.css.map */

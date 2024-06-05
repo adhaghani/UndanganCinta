@@ -1,0 +1,38 @@
+#About {
+  padding: 80px 0px;
+}
+#About .Container .Section-Container {
+  margin-top: 100px;
+}
+#About .Container .Section-Container #AboutSection {
+  margin: 40px 0px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#About .Container .Section-Container #AboutSection:nth-child(even) {
+  flex-direction: row-reverse;
+}
+#About .Container .Section-Container #AboutSection .illustration {
+  display: grid;
+  place-items: center;
+  width: clamp(300px, 100%, 500px);
+}
+#About .Container .Section-Container #AboutSection .illustration img {
+  width: clamp(300px, 100%, 400px);
+}
+#About .Container .Section-Container #AboutSection .Section-Details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: clamp(300px, 100%, 600px);
+}
+#About .Container .Section-Container #AboutSection .Section-Details .Title h1 {
+  color: var(--colour_primary_dark);
+}
+#About .Container .Section-Container #AboutSection .Section-Details .Details {
+  margin-top: 20px;
+}
+#About .Container .Section-Container #AboutSection .Section-Details .Details p {
+  font-size: 20px;
+}/*# sourceMappingURL=About.css.map */

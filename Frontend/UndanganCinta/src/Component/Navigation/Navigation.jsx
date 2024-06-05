@@ -19,10 +19,7 @@ const Navigation = () => {
               <a href="">About</a>
             </li>
             <li>
-              <a href="">Feature</a>
-            </li>
-            <li>
-              <a href="">Pricing</a>
+              <a href="">Package</a>
             </li>
             <li>
               <a href="">Contact</a>

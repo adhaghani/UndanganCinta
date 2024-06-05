@@ -2,7 +2,7 @@
   padding: var(--padding_1020);
   cursor: pointer;
   font-size: var(--btn_font_size);
-  border-radius: 6px;
+  border-radius: var(--border_radius_6);
   font-weight: var(--font_weight_semibold);
   &.outline {
     background-color: transparent;

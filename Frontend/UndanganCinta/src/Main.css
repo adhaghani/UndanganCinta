@@ -30,6 +30,7 @@
   --font_weight_bold: 700;
   --font_weight_semibold: 600;
   --font_weight_nomral: 400;
+  --font_size_64: clamp(30px, 5vw, 64px);
   --font_size_40: clamp(20px, 5vw, 40px);
   --font_size_32: clamp(20px, 5vw, 32px);
   --font_size_24: clamp(20px, 5vw, 24px);

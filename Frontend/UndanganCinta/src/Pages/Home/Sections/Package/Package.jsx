@@ -8,12 +8,7 @@ const Package = () => {
     {
       title: "Basic",
       price: "$0",
-      perks: [
-        "Free Invitations",
-        "card customization",
-        "RSVP form",
-        "Edit design"
-      ],
+      perks: ["Unlimited Invitations", "card customization", "RSVP form"],
       noPerks: [
         "Automatic invitations",
         "Automatic reminders",
@@ -27,25 +22,22 @@ const Package = () => {
       title: "Premium",
       price: "$10",
       perks: [
-        "Free Invitations",
+        "Unlimited Invitations",
         "card customization",
         "RSVP form",
-        "Edit design",
         "Automatic invitations",
         "Automatic reminders",
-        "Automatic updates",
-        "Custom Design"
+        "Automatic updates"
       ],
-      noPerks: ["24/7 Support", "Detailed Analytics"]
+      noPerks: ["Custom Design", "24/7 Support", "Detailed Analytics"]
     },
     {
       title: "Enterprise",
       price: "$50",
       perks: [
-        "Free Invitations",
+        "Unlimited Invitations",
         "card customization",
         "RSVP form",
-        "Edit design",
         "Automatic invitations",
         "Automatic reminders",
         "Automatic updates",

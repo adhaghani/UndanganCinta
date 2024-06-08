@@ -12,7 +12,8 @@
       align-items: center;
       &.Text {
         h1 {
-          font-size: 64px;
+          font-size: var(--font_size_64);
+          padding: 0px 20px;
           span {
             color: var(--colour_primary_dark);
           }
@@ -20,7 +21,8 @@
       }
       &.Image {
         img {
-          width: 100%;
+          margin: auto;
+          width: 80%;
           max-width: 400px;
         }
       }
@@ -30,6 +32,7 @@
     position: relative;
     .custom-shape-divider-top-1717847592 {
       position: absolute;
+      z-index: 2;
       top: 0;
       left: 0;
       width: 100%;
@@ -37,6 +40,19 @@
       line-height: 0;
       .shape-fill {
         fill: var(--colour_primary_light);
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1px) and (max-width: 768px) {
+  #Hero {
+    .Container {
+      justify-content: space-evenly;
+      flex-direction: column-reverse;
+      align-items: center;
+      .Section {
+        text-align: center;
       }
     }
   }

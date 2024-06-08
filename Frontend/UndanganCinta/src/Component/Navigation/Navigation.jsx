@@ -22,13 +22,16 @@ const Navigation = () => {
               <a href="#Package">Package</a>
             </li>
             <li>
+              <a href="#Contact">Demo</a>
+            </li>
+            <li>
               <a href="#Contact">Contact</a>
             </li>
           </ul>
         </div>
 
         <div className="Section">
-          <Button value="Sign in" className="outline" />
+          <Button value="Sign in" className="Fill" />
         </div>
       </div>
     </div>

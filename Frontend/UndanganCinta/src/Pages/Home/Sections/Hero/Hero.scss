@@ -1,6 +1,6 @@
 #Hero {
-  margin-bottom: -70px;
   background-color: var(--colour_primary_light);
+
   .Container {
     display: flex;
     align-content: center;
@@ -26,9 +26,18 @@
       }
     }
   }
-  svg {
-    transform: translateY(6px);
-    margin-top: -8%;
-    width: 100vw;
+  .wrapper {
+    position: relative;
+    .custom-shape-divider-top-1717847592 {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      overflow: hidden;
+      line-height: 0;
+      .shape-fill {
+        fill: var(--colour_primary_light);
+      }
+    }
   }
 }

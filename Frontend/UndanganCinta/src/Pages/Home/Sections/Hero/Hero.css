@@ -1,5 +1,4 @@
 #Hero {
-  margin-bottom: -70px;
   background-color: var(--colour_primary_light);
 }
 #Hero .Container {
@@ -23,8 +22,17 @@
   width: 100%;
   max-width: 400px;
 }
-#Hero svg {
-  transform: translateY(6px);
-  margin-top: -8%;
-  width: 100vw;
+#Hero .wrapper {
+  position: relative;
+}
+#Hero .wrapper .custom-shape-divider-top-1717847592 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+#Hero .wrapper .custom-shape-divider-top-1717847592 .shape-fill {
+  fill: var(--colour_primary_light);
 }/*# sourceMappingURL=Hero.css.map */

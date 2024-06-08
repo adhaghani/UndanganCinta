@@ -18,4 +18,14 @@
     margin-top: 20px;
     width: 100%;
   }
+  &.Fill {
+    background-color: var(--colour_primary_light);
+    border: 2px solid var(--colour_primary);
+    font-weight: var(--font_weight_bold);
+    &:hover {
+      background-color: var(--colour_primary_dark);
+      border: 2px solid var(--colour_primary_dark);
+      color: var(--text_colour_white);
+    }
+  }
 }

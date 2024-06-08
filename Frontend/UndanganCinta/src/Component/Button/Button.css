@@ -18,4 +18,14 @@
   padding: 15px 20px;
   margin-top: 20px;
   width: 100%;
+}
+.Button.Fill {
+  background-color: var(--colour_primary_light);
+  border: 2px solid var(--colour_primary);
+  font-weight: var(--font_weight_bold);
+}
+.Button.Fill:hover {
+  background-color: var(--colour_primary_dark);
+  border: 2px solid var(--colour_primary_dark);
+  color: var(--text_colour_white);
 }/*# sourceMappingURL=Button.css.map */

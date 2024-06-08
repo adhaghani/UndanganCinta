@@ -36,7 +36,7 @@ const PackageCard = (props) => {
           </>
         )}
       </ul>
-      <Button className="outline Full" value="Get Started" />
+      <Button className="Fill Full" value="Buy" />
     </div>
   );
 };

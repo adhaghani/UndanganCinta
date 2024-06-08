@@ -15,12 +15,12 @@ const Package = () => {
         "Edit design"
       ],
       noPerks: [
-        "24/7 Support",
-        "Custom Design",
-        "Detailed Analytics",
         "Automatic invitations",
         "Automatic reminders",
-        "Automatic updates"
+        "Automatic updates",
+        "Custom Design",
+        "24/7 Support",
+        "Detailed Analytics"
       ]
     },
     {
@@ -52,7 +52,7 @@ const Package = () => {
         "Custom Design",
         "24/7 Support",
         "Detailed Analytics"
-      ],
+      ]
     }
   ];
 

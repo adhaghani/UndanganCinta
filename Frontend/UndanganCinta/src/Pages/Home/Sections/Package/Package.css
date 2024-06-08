@@ -10,7 +10,7 @@
   width: clamp(300px, 100%, 320px);
   padding: var(--padding_20);
   border-radius: var(--border_radius_6);
-  box-shadow: var(--box_shadow_1);
+  border: 2px solid var(--bg_colour_lgray);
 }
 #Package .Container .Card-Container #PackageCard .title {
   text-align: center;
@@ -40,8 +40,10 @@
   margin-left: 5px;
   font-size: var(--font_size_18);
   color: var(--text_colour_black);
+  font-weight: var(--font_weight_bold);
 }
 #Package .Container .Card-Container #PackageCard .package-details li.gray p {
   font-size: var(--font_size_16);
   color: var(--text_colour_lgray);
+  font-weight: var(--font_weight_normal);
 }/*# sourceMappingURL=Package.css.map */

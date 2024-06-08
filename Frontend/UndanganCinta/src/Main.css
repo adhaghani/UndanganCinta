@@ -20,6 +20,7 @@
   --text_colour_black: #0c0c0c;
   --text_colour_dkgray: #303030;
   --text_colour_lgray: #7a7a7a;
+  --text_colour_white: #f7f7f7;
   --width-Container: clamp(1px, 100%, 1440px);
   --padding_1020: 10px 20px;
   --padding_020: 0 20px;

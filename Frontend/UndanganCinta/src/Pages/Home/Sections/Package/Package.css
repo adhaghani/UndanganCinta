@@ -1,12 +1,13 @@
 #Package .Container .Card-Container {
-  margin-top: 100px;
+  margin: 100px 0px;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: var(--gap_15);
+  flex-wrap: wrap;
 }
 #Package .Container .Card-Container #PackageCard {
-  flex: 1 1;
+  width: clamp(300px, 100%, 320px);
   padding: var(--padding_20);
   border-radius: var(--border_radius_6);
   box-shadow: var(--box_shadow_1);
@@ -15,11 +16,32 @@
   text-align: center;
   padding-bottom: var(--gap_15);
 }
-#Package .Container .Card-Container #PackageCard .title h3 {
+#Package .Container .Card-Container #PackageCard .title h2 {
   color: var(--colour_primary_dark);
+}
+#Package .Container .Card-Container #PackageCard .Price {
+  text-align: center;
+  padding: var(--gap_15) 0px;
+}
+#Package .Container .Card-Container #PackageCard .Price h1 {
+  color: var(--colour_primary_dark);
+}
+#Package .Container .Card-Container #PackageCard .Price h1 span {
+  font-size: var(--font_size_16);
+  color: var(--text_colour_dkgray);
 }
 #Package .Container .Card-Container #PackageCard .package-details li {
   padding: 5px 0px;
   display: flex;
   align-items: center;
+  margin: 7px 0px;
+}
+#Package .Container .Card-Container #PackageCard .package-details li p {
+  margin-left: 5px;
+  font-size: var(--font_size_18);
+  color: var(--text_colour_black);
+}
+#Package .Container .Card-Container #PackageCard .package-details li.gray p {
+  font-size: var(--font_size_16);
+  color: var(--text_colour_lgray);
 }/*# sourceMappingURL=Package.css.map */

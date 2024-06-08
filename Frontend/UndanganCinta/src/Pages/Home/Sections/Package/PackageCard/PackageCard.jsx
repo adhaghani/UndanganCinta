@@ -1,39 +1,42 @@
 import React from "react";
 
 import Check from "/PackageSection/Check.svg";
-const PackageCard = () => {
+import noCheck from "/PackageSection/noCheck.svg";
+import Button from "../../../../../Component/Button/Button";
+const PackageCard = (props) => {
   return (
     <div className="PackageCard" id="PackageCard">
       <div className="title">
-        <h3>Enterprise</h3>
+        <h2>{props.data.title}</h2>
+      </div>
+      <div className="Price">
+        <h1>
+          {props.data.price} <span>/ Month</span>
+        </h1>
       </div>
       <ul className="package-details">
-        <li>
-          {" "}
-          <img src={Check} alt="" />
-          perks List
-        </li>
-        <li>
-          {" "}
-          <img src={Check} alt="" />
-          perks List
-        </li>
-        <li>
-          {" "}
-          <img src={Check} alt="" />
-          perks List
-        </li>
-        <li>
-          {" "}
-          <img src={Check} alt="" />
-          perks List
-        </li>
-        <li>
-          {" "}
-          <img src={Check} alt="" />
-          perks List
-        </li>
+        {props.data.perks.map((perk) => {
+          return (
+            <li key={perk}>
+              {" "}
+              <img src={Check} alt="" /> <p>{perk}</p>{" "}
+            </li>
+          );
+        })}
+        {props.data.noPerks && (
+          <>
+            {props.data.noPerks.map((noPerk) => {
+              return (
+                <li key={noPerk} className="gray">
+                  {" "}
+                  <img src={noCheck} alt="" /> <p>{noPerk}</p>{" "}
+                </li>
+              );
+            })}
+          </>
+        )}
       </ul>
+      <Button className="outline Full" value="Get Started" />
     </div>
   );
 };

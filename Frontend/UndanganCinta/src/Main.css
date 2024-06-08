@@ -29,6 +29,16 @@
   --font_weight_bold: 700;
   --font_weight_semibold: 600;
   --font_weight_nomral: 400;
+  --font_size_40: clamp(20px, 5vw, 40px);
+  --font_size_32: clamp(20px, 5vw, 32px);
+  --font_size_24: clamp(20px, 5vw, 24px);
+  --font_size_20: clamp(16px, 5vw, 20px);
+  --font_size_18: clamp(14px, 5vw, 18px);
+  --font_size_16: clamp(14px, 5vw, 16px);
+  --font_size_14: clamp(12px, 5vw, 14px);
+  --font_weight_400: 400;
+  --font_weight_600: 600;
+  --font_weight_700: 700;
   --height_nav: 70px;
   --colour_primary_dark: #43a0a0;
   --colour_primary: #abd4d4;

@@ -1,21 +1,33 @@
 #Package {
   .Container {
     .Card-Container {
-      margin-top: 100px;
+      margin: 100px 0px;
       display: flex;
       justify-content: center;
       align-items: center;
       gap: var(--gap_15);
+      flex-wrap: wrap;
       #PackageCard {
-        flex: 1 1;
+        width: clamp(300px, 100%, 320px);
         padding: var(--padding_20);
         border-radius: var(--border_radius_6);
         box-shadow: var(--box_shadow_1);
         .title {
           text-align: center;
           padding-bottom: var(--gap_15);
-          h3 {
+          h2 {
             color: var(--colour_primary_dark);
+          }
+        }
+        .Price {
+          text-align: center;
+          padding: var(--gap_15) 0px;
+          h1 {
+            color: var(--colour_primary_dark);
+            span {
+              font-size: var(--font_size_16);
+              color: var(--text_colour_dkgray);
+            }
           }
         }
         .package-details {
@@ -23,6 +35,18 @@
             padding: 5px 0px;
             display: flex;
             align-items: center;
+            margin: 7px 0px;
+            p {
+              margin-left: 5px;
+              font-size: var(--font_size_18);
+              color: var(--text_colour_black);
+            }
+            &.gray {
+              p {
+                font-size: var(--font_size_16);
+                color: var(--text_colour_lgray);
+              }
+            }
           }
         }
       }

@@ -13,4 +13,9 @@
       border: 2px solid var(--colour_primary_dark);
     }
   }
+  &.Full {
+    padding: 15px 20px;
+    margin-top: 20px;
+    width: 100%;
+  }
 }

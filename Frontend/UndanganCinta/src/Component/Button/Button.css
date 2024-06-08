@@ -13,4 +13,9 @@
 .Button.outline:hover {
   color: var(--text_colour_dkgray);
   border: 2px solid var(--colour_primary_dark);
+}
+.Button.Full {
+  padding: 15px 20px;
+  margin-top: 20px;
+  width: 100%;
 }/*# sourceMappingURL=Button.css.map */

@@ -3,6 +3,8 @@ import React, { useState } from "react";
 import "./Navigation.css";
 
 import Button from "../Button/Button";
+import { Link } from "react-router-dom";
+
 const Navigation = () => {
   const [SideNav, setSideNav] = useState(false);
 
@@ -19,16 +21,16 @@ const Navigation = () => {
           </div>
           <ul className="List">
             <li>
-              <a href="#">Home</a>
+              <Link to="/">Home</Link>
             </li>
             <li>
-              <a href="#About">About</a>
+              <a href="/#About">About </a>
             </li>
             <li>
-              <a href="#Package">Package</a>
+              <a href="/#Package">Package </a>
             </li>
             <li>
-              <a href="#Demo">Demo</a>
+              <Link to="/Demo">Demo </Link>
             </li>
           </ul>
         </div>

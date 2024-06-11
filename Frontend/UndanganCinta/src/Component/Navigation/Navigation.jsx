@@ -54,24 +54,24 @@ const Navigation = () => {
         <div className="Section">
           <ul className="List">
             <li>
-              <a href="#" onClick={handleSideNav}>
+              <Link to="/" onClick={handleSideNav}>
                 Home
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#About" onClick={handleSideNav}>
+              <a href="/#About" onClick={handleSideNav}>
                 About
               </a>
             </li>
             <li>
-              <a href="#Package" onClick={handleSideNav}>
+              <a href="/#Package" onClick={handleSideNav}>
                 Package
               </a>
             </li>
             <li>
-              <a href="#Demo" onClick={handleSideNav}>
-                Demo
-              </a>
+              <Link to="/Demo" onClick={handleSideNav}>
+                Demo{" "}
+              </Link>
             </li>
           </ul>
         </div>

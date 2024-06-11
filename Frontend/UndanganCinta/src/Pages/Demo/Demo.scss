@@ -1,5 +1,12 @@
 #Demo {
   .Container.Demo {
-    padding: var(--padding_20);
+    padding-top: calc(var(--height_nav) + 30px);
+    .Card-Container {
+      margin-top: 60px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: var(--gap_15);
+    }
   }
 }

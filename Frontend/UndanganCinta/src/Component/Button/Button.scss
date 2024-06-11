@@ -28,4 +28,11 @@
       color: var(--text_colour_white);
     }
   }
+
+  &.NoOutline {
+    border: none;
+    &:hover {
+      border: none;
+    }
+  }
 }

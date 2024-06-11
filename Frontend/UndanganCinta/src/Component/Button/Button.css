@@ -28,4 +28,10 @@
   background-color: var(--colour_primary_dark);
   border: 2px solid var(--colour_primary_dark);
   color: var(--text_colour_white);
+}
+.Button.NoOutline {
+  border: none;
+}
+.Button.NoOutline:hover {
+  border: none;
 }/*# sourceMappingURL=Button.css.map */

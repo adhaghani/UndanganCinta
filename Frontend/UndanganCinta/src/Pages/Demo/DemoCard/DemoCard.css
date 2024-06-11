@@ -1,0 +1,16 @@
+#DemoCard {
+  border-radius: var(--border_radius_6);
+  box-shadow: var(--box_shadow_1);
+}
+#DemoCard .card-image {
+  width: 300px;
+  background-color: var(--bg_colour_white);
+  border-radius: var(--border_radius_6);
+  aspect-ratio: 1/1;
+}
+#DemoCard .card-details {
+  padding: var(--padding_20);
+}
+#DemoCard .card-details .title .dateTime {
+  margin-top: 6px;
+}/*# sourceMappingURL=DemoCard.css.map */

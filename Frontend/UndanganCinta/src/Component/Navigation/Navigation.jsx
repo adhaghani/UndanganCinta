@@ -21,16 +21,16 @@ const Navigation = () => {
           </div>
           <ul className="List">
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/UndanganCinta/">Home</Link>
             </li>
             <li>
-              <a href="/#About">About </a>
+              <a href="/UndanganCinta/#About">About </a>
             </li>
             <li>
-              <a href="/#Package">Package </a>
+              <a href="/UndanganCinta/#Package">Package </a>
             </li>
             <li>
-              <Link to="/Demo">Demo </Link>
+              <Link to="/UndanganCinta/Demo">Demo </Link>
             </li>
           </ul>
         </div>
@@ -54,22 +54,22 @@ const Navigation = () => {
         <div className="Section">
           <ul className="List">
             <li>
-              <Link to="/" onClick={handleSideNav}>
+              <Link to="/UndanganCinta/" onClick={handleSideNav}>
                 Home
               </Link>
             </li>
             <li>
-              <a href="/#About" onClick={handleSideNav}>
+              <a href="/UndanganCinta/#About" onClick={handleSideNav}>
                 About
               </a>
             </li>
             <li>
-              <a href="/#Package" onClick={handleSideNav}>
+              <a href="/UndanganCinta/#Package" onClick={handleSideNav}>
                 Package
               </a>
             </li>
             <li>
-              <Link to="/Demo" onClick={handleSideNav}>
+              <Link to="/UndanganCinta/Demo" onClick={handleSideNav}>
                 Demo{" "}
               </Link>
             </li>

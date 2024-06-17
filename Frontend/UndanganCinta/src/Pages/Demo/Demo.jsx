@@ -18,11 +18,6 @@ const Demo = () => {
         />
         <div className="Card-Container">
           <DemoCard />
-          <DemoCard />
-          <DemoCard />
-          <DemoCard />
-          <DemoCard />
-          <DemoCard />
         </div>
       </div>
     </div>

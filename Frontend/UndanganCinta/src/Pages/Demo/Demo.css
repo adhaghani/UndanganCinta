@@ -1,5 +1,5 @@
 #Demo .Container.Demo {
-  padding-top: calc(var(--height_nav) + 30px);
+  padding: calc(var(--height_nav) + 30px) 0px;
 }
 #Demo .Container.Demo .Card-Container {
   margin-top: 60px;

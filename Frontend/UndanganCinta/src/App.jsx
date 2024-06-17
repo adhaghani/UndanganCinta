@@ -3,13 +3,16 @@ import "./Main.css";
 
 import Home from "./Pages/Home/Home";
 import Demo from "./Pages/Demo/Demo";
+
+import LiveDemo from "./Pages/Demo/LiveDemo/LiveDemo";
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename="/UndanganCinta/">
         <Routes>
-          <Route path="/UndanganCinta" element={<Home />} />
-          <Route path="/UndanganCinta/Demo" element={<Demo />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/Demo" element={<Demo />} />
+          <Route path="/Demo/LiveDemo" element={<LiveDemo />} />
         </Routes>
       </Router>
     </div>

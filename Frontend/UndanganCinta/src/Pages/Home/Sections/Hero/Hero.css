@@ -1,5 +1,6 @@
 #Hero {
   background-color: var(--colour_primary_light);
+  padding-top: var(--height_nav);
 }
 #Hero .Container {
   display: flex;
@@ -13,19 +14,24 @@
   align-items: center;
 }
 #Hero .Container .Section.Text h1 {
+  font-family: var(--font_family_title);
   font-size: var(--font_size_64);
-  padding: 0px 20px;
+  padding-right: 20px;
 }
 #Hero .Container .Section.Text h1 span {
   color: var(--colour_primary_dark);
 }
+#Hero .Container .Section.Image {
+  display: flex;
+  justify-content: flex-end;
+}
 #Hero .Container .Section.Image img {
-  margin: auto;
   width: 80%;
   max-width: 400px;
 }
 #Hero .wrapper {
   position: relative;
+  z-index: -2;
 }
 #Hero .wrapper .custom-shape-divider-top-1717847592 {
   position: absolute;
@@ -48,5 +54,8 @@
   }
   #Hero .Container .Section {
     text-align: center;
+  }
+  #Hero .Container .Section.Image {
+    justify-content: center;
   }
 }/*# sourceMappingURL=Hero.css.map */

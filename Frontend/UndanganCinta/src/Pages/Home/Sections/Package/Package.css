@@ -7,7 +7,8 @@
   flex-wrap: wrap;
 }
 #Package .Container .Card-Container #PackageCard {
-  width: clamp(300px, 100%, 320px);
+  background-color: #fff;
+  flex: 1 1 0;
   padding: var(--padding_20);
   border-radius: var(--border_radius_6);
   border: 2px solid var(--bg_colour_lgray);
@@ -29,6 +30,7 @@
 #Package .Container .Card-Container #PackageCard .Price h1 span {
   font-size: var(--font_size_16);
   color: var(--text_colour_dkgray);
+  font-weight: var(--font_weight_semibold);
 }
 #Package .Container .Card-Container #PackageCard .package-details li {
   padding: 5px 0px;
@@ -40,10 +42,25 @@
   margin-left: 5px;
   font-size: var(--font_size_18);
   color: var(--text_colour_black);
-  font-weight: var(--font_weight_bold);
+  font-weight: var(--font_weight_normal);
 }
 #Package .Container .Card-Container #PackageCard .package-details li.gray p {
   font-size: var(--font_size_16);
   color: var(--text_colour_lgray);
   font-weight: var(--font_weight_normal);
+}
+
+@media screen and (min-width: 1px) and (max-width: 768px) {
+  #Package .Container .Card-Container {
+    flex-direction: column;
+  }
+  #Package .Container .Card-Container #PackageCard {
+    width: 100%;
+  }
+  #Package .Container .Card-Container #PackageCard .title {
+    text-align: left;
+  }
+  #Package .Container .Card-Container #PackageCard .Price {
+    text-align: left;
+  }
 }/*# sourceMappingURL=Package.css.map */

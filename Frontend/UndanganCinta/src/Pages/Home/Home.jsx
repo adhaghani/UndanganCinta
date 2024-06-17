@@ -7,6 +7,7 @@ import Footer from "../../Component/Footer/Footer";
 import Hero from "./Sections/Hero/Hero";
 import About from "./Sections/About/About";
 import Package from "./Sections/Package/Package";
+import Join from "./Sections/Join/Join";
 const Home = () => {
   return (
     <>
@@ -14,6 +15,7 @@ const Home = () => {
         <Navigation />
         <Hero />
         <About />
+        <Join />
         <Package />
         <Footer />
       </div>

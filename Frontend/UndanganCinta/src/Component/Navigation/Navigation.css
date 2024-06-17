@@ -2,6 +2,7 @@
   width: 100%;
   height: var(--height_nav);
   background-color: var(--colour_primary_light);
+  position: fixed;
 }
 #Navigation .Container {
   height: 100%;
@@ -13,6 +14,7 @@
   display: flex;
   align-items: center;
   gap: var(--gap_15);
+  padding: 0px;
 }
 #Navigation .Container .Section .Logo h3 {
   letter-spacing: 1px;
@@ -82,6 +84,9 @@
 }
 #Navigation #SideNav .Section .List li a:hover {
   color: var(--colour_primary_dark);
+}
+#Navigation #SideNav .Section.Button {
+  max-width: 100%;
 }
 
 @media screen and (min-width: 1px) and (max-width: 768px) {

@@ -1,0 +1,6 @@
+#LiveDemo {
+  width: clamp(300px, 100%, 768px);
+  border: 1px solid black;
+  margin: auto;
+  padding: var(--padding_20);
+}/*# sourceMappingURL=LiveDemo.css.map */

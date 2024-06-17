@@ -8,7 +8,8 @@
       gap: var(--gap_15);
       flex-wrap: wrap;
       #PackageCard {
-        width: clamp(300px, 100%, 320px);
+        background-color: #fff;
+        flex: 1 1 0;
         padding: var(--padding_20);
         border-radius: var(--border_radius_6);
         border: 2px solid var(--bg_colour_lgray);
@@ -27,6 +28,7 @@
             span {
               font-size: var(--font_size_16);
               color: var(--text_colour_dkgray);
+              font-weight: var(--font_weight_semibold);
             }
           }
         }
@@ -40,7 +42,7 @@
               margin-left: 5px;
               font-size: var(--font_size_18);
               color: var(--text_colour_black);
-              font-weight: var(--font_weight_bold);
+              font-weight: var(--font_weight_normal);
             }
             &.gray {
               p {
@@ -49,6 +51,25 @@
                 font-weight: var(--font_weight_normal);
               }
             }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1px) and (max-width: 768px) {
+  #Package {
+    .Container {
+      .Card-Container {
+        flex-direction: column;
+        #PackageCard {
+          width: 100%;
+          .title {
+            text-align: left;
+          }
+          .Price {
+            text-align: left;
           }
         }
       }

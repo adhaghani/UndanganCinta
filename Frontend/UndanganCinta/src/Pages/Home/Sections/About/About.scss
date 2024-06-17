@@ -1,5 +1,4 @@
 #About {
-  padding: 80px 0px;
   .Container {
     .Section-Container {
       margin-top: 100px;
@@ -9,10 +8,17 @@
         justify-content: space-between;
         &:nth-child(even) {
           flex-direction: row-reverse;
+          .illustration {
+            justify-content: flex-end;
+          }
+          .Section-Details {
+            padding-right: 20px;
+            padding-left: 0px;
+          }
         }
         .illustration {
-          display: grid;
-          place-items: center;
+          display: flex;
+
           width: clamp(300px, 100%, 500px);
           img {
             width: clamp(300px, 100%, 400px);
@@ -23,16 +29,31 @@
           flex-direction: column;
           justify-content: center;
           width: clamp(300px, 100%, 600px);
-          padding: var(--padding_20);
+          padding-left: 20px;
           .Title {
             h1 {
+              font-size: var(--font_size_32);
               color: var(--colour_primary_dark);
+              letter-spacing: 1px;
+              font-family: var(--font_family_title);
             }
           }
           .Details {
             margin-top: 20px;
             p {
-              font-size: 20px;
+              font-size: var(--font_size_20);
+              color: var(--text_colour_dkgray);
+            }
+          }
+          .learn-more {
+            margin-top: 12px;
+            width: fit-content;
+            a {
+              color: var(--text_colour_black);
+              font-size: var(--font_size_18);
+              span {
+                color: var(--colour_primary_dark);
+              }
             }
           }
         }
@@ -49,9 +70,25 @@
           justify-content: center;
           text-align: center;
           gap: 60px;
+          &:nth-child(even) {
+            .illustration {
+              justify-content: center;
+            }
+            .Section-Details {
+              padding: 0px 20px;
+            }
+          }
           .illustration {
+            justify-content: center;
             img {
               max-width: 280px;
+            }
+          }
+          .Section-Details {
+            padding: 0px 20px;
+            .learn-more {
+              width: 100%;
+              text-align: center;
             }
           }
         }

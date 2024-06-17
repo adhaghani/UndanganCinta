@@ -1,6 +1,6 @@
 #Hero {
   background-color: var(--colour_primary_light);
-
+  padding-top: var(--height_nav);
   .Container {
     display: flex;
     align-content: center;
@@ -12,16 +12,18 @@
       align-items: center;
       &.Text {
         h1 {
+          font-family: var(--font_family_title);
           font-size: var(--font_size_64);
-          padding: 0px 20px;
+          padding-right: 20px;
           span {
             color: var(--colour_primary_dark);
           }
         }
       }
       &.Image {
+        display: flex;
+        justify-content: flex-end;
         img {
-          margin: auto;
           width: 80%;
           max-width: 400px;
         }
@@ -30,6 +32,7 @@
   }
   .wrapper {
     position: relative;
+    z-index: -2;
     .custom-shape-divider-top-1717847592 {
       position: absolute;
       z-index: 2;
@@ -53,6 +56,9 @@
       align-items: center;
       .Section {
         text-align: center;
+        &.Image {
+          justify-content: center;
+        }
       }
     }
   }

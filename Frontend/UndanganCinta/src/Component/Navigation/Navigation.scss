@@ -2,6 +2,7 @@
   width: 100%;
   height: var(--height_nav);
   background-color: var(--colour_primary_light);
+  position: fixed;
   .Container {
     height: 100%;
     display: flex;
@@ -11,6 +12,7 @@
       display: flex;
       align-items: center;
       gap: var(--gap_15);
+      padding: 0px;
       .Logo {
         h3 {
           letter-spacing: 1px;
@@ -93,6 +95,9 @@
             }
           }
         }
+      }
+      &.Button {
+        max-width: 100%;
       }
     }
   }

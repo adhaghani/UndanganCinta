@@ -13,6 +13,11 @@ const AboutSection = (props) => {
         <div className="Details">
           <p>{props.details}</p>
         </div>
+        <div className="learn-more">
+          <a href="">
+            Learn More about <span> {props.learn}.</span>
+          </a>
+        </div>
       </div>
     </div>
   );

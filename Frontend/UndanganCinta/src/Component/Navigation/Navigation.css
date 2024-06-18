@@ -18,6 +18,11 @@
 }
 #Navigation .Container .Section .Logo {
   display: flex;
+  align-items: center;
+  gap: 10px;
+}
+#Navigation .Container .Section .Logo img {
+  width: 40px;
 }
 #Navigation .Container .Section .Logo h3 {
   letter-spacing: 1px;

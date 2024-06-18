@@ -4,6 +4,8 @@ import "./Navigation.css";
 
 import Button from "../Button/Button";
 
+import logo from "/Logo.svg";
+
 const Navigation = () => {
   const [SideNav, setSideNav] = useState(false);
 
@@ -16,6 +18,7 @@ const Navigation = () => {
       <div className="Container Navigation">
         <div className="Section">
           <div className="Logo">
+            <img src={logo} alt="" />
             <h3>UndanganCinta</h3>
           </div>
 

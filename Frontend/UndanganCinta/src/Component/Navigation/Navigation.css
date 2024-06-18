@@ -16,6 +16,9 @@
   gap: var(--gap_15);
   padding: 0px;
 }
+#Navigation .Container .Section .Logo {
+  display: flex;
+}
 #Navigation .Container .Section .Logo h3 {
   letter-spacing: 1px;
 }

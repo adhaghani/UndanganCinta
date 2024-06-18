@@ -23,6 +23,7 @@
         .Question {
           color: var(--text_colour_dkgray);
           font-size: var(--font_size_20);
+          padding-right: 20px;
         }
         &:hover {
           border: 2px solid var(--bg_colour_lgray);

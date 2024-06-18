@@ -5,6 +5,7 @@ import "./Demo.css";
 import Navigation from "../../Component/Navigation/Navigation";
 import Title from "../../Component/Title/Title";
 import DemoCard from "./DemoCard/DemoCard";
+import Footer from "../../Component/Footer/Footer";
 
 const Demo = () => {
   return (

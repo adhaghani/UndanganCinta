@@ -1,21 +1,17 @@
 import React from "react";
 
-const ReviewCard = () => {
+const ReviewCard = (props) => {
   return (
     <div className="ReviewCard" id="ReviewCard">
       <div className="profile-pic">face</div>
       <div className="name">
-        <h4>John Doe</h4>
+        <h4>{props.data.Name}</h4>
       </div>
       <div className="title">
-        <p>Software Enigneer</p>
+        <p>{props.data.Title}</p>
       </div>
       <div className="review">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
-          impedit veritatis dignissimos minus. Accusamus explicabo nam quaerat
-          perspiciatis nisi animi?
-        </p>
+        <p>{props.data.Review}</p>
       </div>
     </div>
   );

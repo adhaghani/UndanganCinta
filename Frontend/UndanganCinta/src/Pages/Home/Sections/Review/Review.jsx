@@ -4,7 +4,10 @@ import Title from "../../../../Component/Title/Title";
 
 import ReviewCard from "./ReviewCard/ReviewCard";
 import "./Review.css";
+
+import ReviewData from "./Review.json";
 const Review = () => {
+  const data = [];
   return (
     <div className="Review" id="Review">
       <Title
@@ -13,9 +16,9 @@ const Review = () => {
       />
       <div className="Container Review">
         <div className="Section-Review">
-          <ReviewCard />
-          <ReviewCard />
-          <ReviewCard />
+          {ReviewData.map((item) => {
+            return <ReviewCard key={item.id} data={item} />;
+          })}
         </div>
       </div>
     </div>

@@ -1,22 +1,35 @@
 import React from "react";
 
 import heroimage from "/Home/hero.svg";
+import demoHero from "/Demo/DemoHero.svg";
 
 import "./Hero.css";
 
-const Hero = () => {
+const Hero = (props) => {
   return (
     <div className="Hero" id="Hero">
       <div className="Container Hero">
         <div className="Section Text">
-          <h1>
-            Your invitation card,
-            <br />
-            But <span>Better</span> in every way.
-          </h1>
+          {props.type === "Demo" ? (
+            <h1>
+              View our demonstration,
+              <br />
+              <span>Immerse</span> yourself.
+            </h1>
+          ) : (
+            <h1>
+              Your invitation card,
+              <br />
+              But <span>Better</span> in every way.
+            </h1>
+          )}
         </div>
         <div className="Section Image">
-          <img src={heroimage} alt="" />
+          {props.type === "Demo" ? (
+            <img src={demoHero} alt="" />
+          ) : (
+            <img src={heroimage} alt="" />
+          )}
         </div>
       </div>
       <div className="wrapper">

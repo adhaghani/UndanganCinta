@@ -1,13 +1,13 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 import Title from "../../../../Component/Title/Title";
 
 import ReviewCard from "./ReviewCard/ReviewCard";
 import "./Review.css";
 
-import ReviewData from "./Review.json";
+import Data from "./Data.json";
+
 const Review = () => {
-  const data = [];
   return (
     <div className="Review" id="Review">
       <Title
@@ -16,7 +16,7 @@ const Review = () => {
       />
       <div className="Container Review">
         <div className="Section-Review">
-          {ReviewData.map((item) => {
+          {Data.map((item) => {
             return <ReviewCard key={item.id} data={item} />;
           })}
         </div>

@@ -1,7 +1,7 @@
 import React from "react";
 
-import Check from "/PackageSection/Check.svg";
-import noCheck from "/PackageSection/noCheck.svg";
+import Check from "/Home/PackageSection/Check.svg";
+import noCheck from "/Home/PackageSection/noCheck.svg";
 import Button from "../../../../../Component/Button/Button";
 const PackageCard = (props) => {
   return (

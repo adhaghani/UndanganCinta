@@ -4,10 +4,10 @@ import Title from "../../../../Component/Title/Title";
 import AboutSection from "./AboutSection/AboutSection";
 import "./About.css";
 
-import Track from "/AboutSection/Track.svg";
-import Safe from "/AboutSection/Safe.svg";
-import Saving from "/AboutSection/Saving.svg";
-import Matter from "/AboutSection/Matter.svg";
+import Track from "/Home/AboutSection/Track.svg";
+import Safe from "/Home/AboutSection/Safe.svg";
+import Saving from "/Home/AboutSection/Saving.svg";
+import Matter from "/Home/AboutSection/Matter.svg";
 const About = () => {
   return (
     <div className="About" id="About">

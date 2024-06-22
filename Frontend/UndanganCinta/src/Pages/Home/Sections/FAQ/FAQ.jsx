@@ -3,6 +3,7 @@ import React from "react";
 import "./FAQ.css";
 import Title from "../../../../Component/Title/Title";
 import FAQCard from "./Card/FAQCard";
+
 const FAQ = () => {
   return (
     <div className="FAQ" id="FAQ">

@@ -27,6 +27,11 @@
   display: grid;
   place-items: center;
 }
+#Review .Container .Section-Review #ReviewCard .profile-pic img {
+  border-radius: 100%;
+  width: 100%;
+  height: 100%;
+}
 #Review .Container .Section-Review #ReviewCard .name {
   margin: 10px 0px;
 }

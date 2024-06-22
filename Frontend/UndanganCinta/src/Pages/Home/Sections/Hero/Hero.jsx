@@ -1,6 +1,6 @@
 import React from "react";
 
-import heroimage from "/hero.svg";
+import heroimage from "/Home/hero.svg";
 
 import "./Hero.css";
 

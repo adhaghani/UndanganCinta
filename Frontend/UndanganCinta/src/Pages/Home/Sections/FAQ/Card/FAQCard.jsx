@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
-import add from "/FAQSection/add.svg";
-import remove from "/FAQSection/remove.svg";
+import add from "/Home/FAQSection/add.svg";
+import remove from "/Home/FAQSection/remove.svg";
 const FAQCard = (props) => {
   const [Opened, setOpened] = useState(false);
 

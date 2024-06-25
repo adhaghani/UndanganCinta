@@ -6,15 +6,18 @@ const LiveDemo = () => {
   return (
     <div className="LiveDemo" id="LiveDemo">
       <div className="Hero" id="Hero">
-        <div className="Event-Image">Event Image</div>
+        <div className="Event-Image">Event Image in 16/9 aspect ratio</div>
         <div className="Event-Message">
           <h2 className="Message">
             You are invited To Amran and Hasni Nikkah Ceremony
           </h2>
           <p className="subTitle">Please confirm your attendance below.</p>
         </div>
+        <Title
+          title={"Event Details"}
+          subtitle={"Everything you need to know"}
+        />
         <div className="Event-Details">
-          <Title title={"Event Details"} />
           {/* Location Details */}
           <div className="Location">
             <iframe
@@ -29,9 +32,31 @@ const LiveDemo = () => {
               <a href="https://www.gps.ie/">gps systems</a>
             </iframe>
           </div>
+          <div className="Details">
+            <div className="information-Card">
+              <h3>Event Name:</h3>
+              <p>Amran and Hasni Nikkah ceremony</p>
+            </div>
+            <div className="information-Card">
+              <h3>Date:</h3>
+              <p>21/02/2025</p>
+            </div>
+            <div className="information-Card">
+              <h3>Time:</h3>
+              <p>12:00P.M - 3:00P.M</p>
+            </div>
+
+            <div className="information-Card">
+              <h3>Location:</h3>
+              <p className="AddressLine1">No 14 Jalan Tenaga 16</p>
+              <p className="AddressLine2">Taman Tenaga</p>
+              <p className="PostCode City">43000, Kajang</p>
+              <p className="State Country">Selangor, Malaysia</p>
+            </div>
+          </div>
         </div>
         <div className="Event-Attendance">
-          <Title title={"Confirm your attendance here"} />
+          <Title title={"Are you coming?"} subtitle={"confirm here"} />
           <div className="RSVP">
             <div className="QR-Container">
               <p>Scan QR to Confirm Attendance</p>

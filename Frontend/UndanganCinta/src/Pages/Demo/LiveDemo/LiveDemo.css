@@ -27,12 +27,34 @@
   text-align: center;
   margin-bottom: 50px;
 }
-#LiveDemo #Hero .Location iframe {
+#LiveDemo #Hero .Event-Details {
+  display: flex;
+  gap: 20px;
+}
+#LiveDemo #Hero .Event-Details .Location {
   width: 50%;
+}
+#LiveDemo #Hero .Event-Details .Location iframe {
+  width: 100%;
+  min-width: 300px;
   height: 100%;
-  aspect-ratio: 1/1;
-  border-radius: 12px;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  aspect-ratio: 16/9;
+}
+#LiveDemo #Hero .Event-Details .Details {
+  width: 50%;
+}
+#LiveDemo #Hero .Event-Details .Details .information-Card {
+  margin-bottom: 20px;
+}
+#LiveDemo #Hero .Event-Details .Details .information-Card:last-child {
+  margin-bottom: 0px;
+}
+#LiveDemo #Hero .Event-Details .Details .information-Card h3 {
+  margin-bottom: 5px;
+  font-weight: var(--font_weight_semibold);
+}
+#LiveDemo #Hero .Event-Details .Details .information-Card p {
+  font-size: var(--font_size_20);
 }
 #LiveDemo #Hero .RSVP {
   margin-top: 50px;
@@ -44,4 +66,16 @@
   width: clamp(300px, 100%, 400px);
   display: grid;
   place-items: center;
+}
+
+@media screen and (min-width: 1px) and (max-width: 768px) {
+  #LiveDemo #Hero .Event-Details {
+    flex-direction: column;
+  }
+  #LiveDemo #Hero .Event-Details .Location {
+    width: 100%;
+  }
+  #LiveDemo #Hero .Event-Details .Details {
+    width: 100%;
+  }
 }/*# sourceMappingURL=LiveDemo.css.map */

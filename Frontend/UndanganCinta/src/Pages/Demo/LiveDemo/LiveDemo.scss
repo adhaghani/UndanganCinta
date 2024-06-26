@@ -1,70 +1,82 @@
 #LiveDemo {
-  width: var(--width-Container);
-  margin: auto;
-  padding: 20px;
-  #Hero {
-    background-color: white;
-    padding-top: 0px;
-    .Event-Image {
-      aspect-ratio: 16/9;
-      width: 100%;
-      background-color: white;
-      border: 1px solid black;
-      display: grid;
-      place-items: center;
-    }
-
-    .Title {
-      margin: 40px 0px;
-    }
-    .Message {
-      margin-top: 40px;
-      text-align: center;
-      font-size: var(--font_size_24);
-    }
-    .subTitle {
-      text-align: center;
-      margin-bottom: 50px;
-    }
-    .Event-Details {
-      display: flex;
-      gap: 20px;
-      .Location {
-        width: 50%;
-        iframe {
-          width: 100%;
-          min-width: 300px;
-          height: 100%;
-          aspect-ratio: 16/9;
-        }
-      }
-      .Details {
-        width: 50%;
-        .information-Card {
-          &:last-child {
-            margin-bottom: 0px;
-          }
-          h3 {
-            margin-bottom: 5px;
-            font-weight: var(--font_weight_semibold);
-          }
-          p {
-            font-size: var(--font_size_20);
-          }
-          margin-bottom: 20px;
-        }
-      }
-    }
-
-    .RSVP {
-      margin-top: 50px;
-      display: flex;
-      .QR-Container {
+  width: 100%;
+  .Container {
+    width: var(--width-Container);
+    margin: auto;
+    padding: 20px;
+    #Hero {
+      background-color: transparent;
+      padding-top: 0px;
+      .Event-Image {
+        aspect-ratio: 16/9;
+        width: 100%;
+        background-color: white;
         border: 1px solid black;
-        aspect-ratio: 1/1;
-        width: clamp(300px, 100%, 400px);
         display: grid;
         place-items: center;
+        border-radius: var(--border_radius_6);
+      }
+
+      .Title {
+        margin: 40px 0px;
+      }
+      .Message {
+        margin-top: 40px;
+        text-align: center;
+        font-size: var(--font_size_24);
+      }
+      .subTitle {
+        text-align: center;
+        margin-bottom: 50px;
+      }
+      .Event-Details {
+        padding: 20px 20px;
+        background-color: #f1f3f4;
+        border-radius: var(--border_radius_6);
+        display: flex;
+        gap: 20px;
+        .Location {
+          width: 50%;
+          iframe {
+            width: 100%;
+            min-width: 300px;
+            height: 100%;
+            aspect-ratio: 16/9;
+          }
+        }
+        .Details {
+          width: 50%;
+          .information-Card {
+            &:last-child {
+              margin-bottom: 0px;
+            }
+            h3 {
+              margin-bottom: 5px;
+              letter-spacing: 1px;
+              font-weight: var(--font_weight_semibold);
+            }
+            p {
+              padding: 10px;
+              background-color: #fff;
+              font-size: var(--font_size_16);
+              border-radius: var(--border_radius_6);
+            }
+            margin-bottom: 20px;
+          }
+        }
+      }
+
+      .RSVP {
+        margin-top: 50px;
+        display: flex;
+        .QR-Container {
+          border: 1px solid black;
+          border-radius: var(--border_radius_6);
+          aspect-ratio: 1/1;
+          width: clamp(300px, 100%, 400px);
+          display: grid;
+          place-items: center;
+        }
       }
     }
   }

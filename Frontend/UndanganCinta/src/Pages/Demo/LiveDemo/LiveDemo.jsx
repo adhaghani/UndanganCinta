@@ -2,22 +2,23 @@ import React from "react";
 
 import "./LiveDemo.css";
 import Title from "../../../Component/Title/Title";
+
+import qr from "/Demo/qr.png";
+import heroBg from "/Demo/heroBg.jpg";
 const LiveDemo = () => {
   return (
     <div className="LiveDemo" id="LiveDemo">
       <div className="Container">
-        <div className="Hero" id="Hero">
-          <div className="Event-Image">Event Image in 16/9 aspect ratio</div>
-          <div className="Event-Message">
-            <h2 className="Message">
-              You are invited To Amran and Hasni Nikkah Ceremony
-            </h2>
-            <p className="subTitle">Please confirm your attendance below.</p>
+        <div className="Section Hero">
+          <div className="Event-Image">
+            <img src={heroBg} alt="" />
           </div>
+        </div>
+        <div className="Section Details">
           <Title
             title={"Event Details"}
             subtitle={"Everything you need to know"}
-          />
+          />  
           <div className="Event-Details">
             {/* Location Details */}
             <div className="Location">
@@ -50,24 +51,29 @@ const LiveDemo = () => {
               <div className="information-Card">
                 <h3>Location:</h3>
                 <p className="AddressLine1">
-                  No 14 Jalan Tenaga 16
+                  Universiti Teknologi MARA (UiTM) Cawangan Pahang,
                   <br />
-                  Taman Tenaga
+                  Kampus Raub, Felda Krau
                   <br />
-                  43000, Kajang
+                  27600, Raub
                   <br />
-                  Selangor, Malaysia
+                  Pahang, Malaysia
                 </p>
               </div>
             </div>
           </div>
+        </div>
+        <div className="Section Attendance">
           <div className="Event-Attendance">
             <Title title={"Are you coming?"} subtitle={"confirm here"} />
             <div className="RSVP">
               <div className="QR-Container">
-                <p>Scan QR to Confirm Attendance</p>
+                <img src={qr} alt="" />
               </div>
-              <div className="Event-Informations"></div>
+              <h1>Or</h1>
+              <div className="Event-Informations">
+                <a href="">Click Here</a>
+              </div>
             </div>
           </div>
         </div>

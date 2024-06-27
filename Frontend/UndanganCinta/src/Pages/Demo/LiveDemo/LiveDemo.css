@@ -22,6 +22,19 @@
   width: 100%;
   border-radius: var(--border_radius_6);
 }
+#LiveDemo .Container .Section.Hero .Event-Summary {
+  margin-top: 20px;
+  display: flex;
+}
+#LiveDemo .Container .Section.Hero .Event-Summary .Event-Title .Event-Name h1 {
+  font-weight: var(--font_weight_normal);
+  color: var(--text_colour_dark);
+  letter-spacing: 1px;
+}
+#LiveDemo .Container .Section.Hero .Event-Summary .Event-Title .TimeDetail {
+  font-size: var(--font_size_16);
+  color: var(--text_colour_dkgray);
+}
 #LiveDemo .Container .Section.Details .Event-Details {
   padding: 20px 20px;
   background-color: #fff;
@@ -109,5 +122,8 @@
   }
   #LiveDemo .Container .Section.Attendance .Event-Attendance .RSVP {
     flex-direction: column;
+  }
+  #LiveDemo .Container .Section.Attendance .Event-Attendance .RSVP .QR-Container {
+    width: 250px;
   }
 }/*# sourceMappingURL=LiveDemo.css.map */

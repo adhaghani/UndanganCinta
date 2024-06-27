@@ -21,6 +21,23 @@
             border-radius: var(--border_radius_6);
           }
         }
+        .Event-Summary {
+          margin-top: 20px;
+          display: flex;
+          .Event-Title {
+            .Event-Name {
+              h1 {
+                font-weight: var(--font_weight_normal);
+                color: var(--text_colour_dark);
+                letter-spacing: 1px;
+              }
+            }
+            .TimeDetail {
+              font-size: var(--font_size_16);
+              color: var(--text_colour_dkgray);
+            }
+          }
+        }
       }
       &.Details {
         .Event-Details {
@@ -127,6 +144,9 @@
           .Event-Attendance {
             .RSVP {
               flex-direction: column;
+              .QR-Container {
+                width: 250px;
+              }
             }
           }
         }

@@ -13,12 +13,23 @@ const LiveDemo = () => {
           <div className="Event-Image">
             <img src={heroBg} alt="" />
           </div>
+          <div className="Event-Summary">
+            <div className="Event-Title">
+              <div className="Event-Name">
+                <h1>Amran and Hasni Nikkah Ceremony</h1>
+              </div>
+              <div className="TimeDetail">
+                21 February 2025 | 12:00P.M | Universiti Teknologi MARA (UiTM)
+                Cawangan Pahang
+              </div>
+            </div>
+          </div>
         </div>
         <div className="Section Details">
           <Title
             title={"Event Details"}
             subtitle={"Everything you need to know"}
-          />  
+          />
           <div className="Event-Details">
             {/* Location Details */}
             <div className="Location">
@@ -45,7 +56,7 @@ const LiveDemo = () => {
               </div>
               <div className="information-Card">
                 <h3>Time:</h3>
-                <p>12:00P.M - 3:00P.M</p>
+                <p>12:00P.M - 3:00P.M MYT (GMT +8.00)</p>
               </div>
 
               <div className="information-Card">
